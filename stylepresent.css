@@ -108,7 +108,7 @@ button {
     border: none;
     padding: 8px 12px; /* Boutons plus petits */
     font-size: 14px;
-    min-width: 150px; /* Largeur minimale */
+    min-width: 100px; /* Largeur minimale */
     max-width: 200px; /* Largeur maximale */
     border-radius: 5px; /* Coins arrondis uniformes */
     cursor: pointer;
