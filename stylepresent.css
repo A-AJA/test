@@ -1,7 +1,8 @@
 /* Styles généraux */
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #f39c12, #e67e22);
+    background:linear-gradient(white, black);
+    background: linear-gradient(to right, #f2be6b, #f19546);
     padding: 20px;
     margin: 0;
     display: flex;
@@ -51,6 +52,7 @@ h2 {
     font-size: 22px;
     color: #333;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 h3 {
@@ -91,7 +93,7 @@ ul p {
     margin: 0; /* Supprime la marge par défaut */
 }
 
-.button-container {
+.cbouton {
     display: flex;
     gap: 10px; /* Espace entre les boutons */
     justify-content: center; /* Centre les boutons horizontalement */
