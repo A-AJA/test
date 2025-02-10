@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Déclaration de l'encodage des caractères en UTF-8 pour supporter tous les caractères spéciaux -->
+    <meta charset="UTF-8">
+
+    <!-- Meta tag pour rendre la page responsive sur les appareils mobiles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Titre de la page affiché dans l'onglet du navigateur -->
+    <title>Présentation</title>
+    
+    <!-- Lien vers la feuille de style CSS, permettant d'appliquer le style visuel aux éléments HTML -->
+    <link rel="stylesheet" href="stylepresent.css">
+</head>
+<body>
+    <!-- Conteneur principal de la page, utilisant une classe pour la mise en page -->
+    <div class="container">
+        <!-- Titre principal qui introduit la page -->
+        <h1>Bienvenue sur ma présentation</h1>
+
+        <!-- Première section avec une description de la personne -->
+            <section>
+                <h1>À propos de moi</h1>
+                <h3>Nom:</h3> <h2>ANZARA ANET JEAN AURIOL</h2>
+                <h3>Parcours:</h3>
+                <ul>
+                    <li>BAC D</li><p>Bingerville, Côte d'Ivoire </p>
+                    <li>LICENCE DES SCIENCES INFORMATIQUES</li><p>Abidjan, Côte d'Ivoire</p>
+                </ul>
+                <h3>Centres d'intérêt:</h3>
+                <ul>
+                    <li>Programmation</li>
+                    <li>Gestion des bases de données</li>
+                </ul>
+            </section>
+        
+
+        <!-- Deuxième section avec une liste d'informations -->
+        <section>
+            <h1>Ma passion</h1>
+            <ul>
+                <li>Sport</li><p>Le sport favorise la discipline et me permet d'être en bonne santé.</p>
+                <li>Photographie</li><p>La photographie me passionne car elle me permet d'exprimer ma créativité, de raconter des histoires à travers les images.</p>
+            </ul>
+        </section>
+        
+
+            <!-- Bouton pour afficher le message -->
+            <button id="message">Afficher le message</button>
+            <!-- Bouton pour masquer le message -->
+            <button id="masquer">Masquer le message</button>
+            <!-- Zone où le message sera affiché ou masqué -->
+            <div id="boitemessage"></div>
+    </div>
+
+    <!-- Inclusion du fichier JavaScript externe -->
+    <script src="presentation.js"></script>
+</body>
+</html>
